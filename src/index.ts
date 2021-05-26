@@ -1,3 +1,6 @@
 import DomNode from './domnode'
+import path = require('path')
 
-DomNode({url: 'asdf'})
+const document = DomNode.createNewDocumentHtml({route: path.join(__dirname, './html/index')})
+
+console.log(document)
