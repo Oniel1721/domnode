@@ -1,3 +1,3 @@
-const sayHello = (name:string):string=> `Hi ${name}` 
+import DomNode from './domnode'
 
-console.log(sayHello("fulano"))
+DomNode({url: 'asdf'})
